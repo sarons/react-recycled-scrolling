@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+}
+
+.Left {
+  left: 0;
+  background-color: #cfe1e638;
+}
+
+.Right {
+  right: 0;
+}
+
+.ListItem {
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  border-top: 1px solid darkgray;
+}

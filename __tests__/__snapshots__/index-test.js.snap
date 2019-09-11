@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecycledList should render 1`] = `
+<div
+  className="DefaultContainer"
+>
+  <div
+    className="Wrapper"
+    onScroll={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "height": 0,
+          "position": "relative",
+        }
+      }
+    />
+  </div>
+</div>
+`;

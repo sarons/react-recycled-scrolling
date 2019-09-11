@@ -1,0 +1,21 @@
+.DefaultContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Wrapper {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: auto;
+  position: absolute;
+  height: 90%;
+}
+
+.ItemWrapper {
+  left: 0px;
+  right: 0px;
+  position: absolute;
+}

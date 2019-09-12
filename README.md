@@ -17,7 +17,7 @@ npm install --save react-recycled-scrolling
 
 All that is required is 
 * **attrList**: A list of items
-* **itemFn**: A React function component or even just a function that returns jsx for each element
+* **itemFn**: A React functional component or even just a function that returns jsx for each element
 
 ```javascript
 const numberList = []

@@ -1,6 +1,8 @@
 # react-recycled-scrolling
 
 [![npm package][npm-badge]][npm]
+[![Build Status](https://travis-ci.org/sarons/react-recycled-scrolling.svg?branch=master)](https://travis-ci.org/sarons/react-recycled-scrolling)
+[![Coverage Status](https://coveralls.io/repos/github/sarons/react-recycled-scrolling/badge.svg?branch=master)](https://coveralls.io/github/sarons/react-recycled-scrolling?branch=master)
 
 > Simulate normal scrolling by using only fixed number of DOM elements for large lists of items
 

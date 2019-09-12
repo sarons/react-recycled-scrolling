@@ -1,6 +1,6 @@
 # React Recycled Scrolling
 
-[![npm package][npm-badge]][npm]
+![npm](https://img.shields.io/npm/v/react-recycled-scrolling)
 [![Build Status](https://travis-ci.org/sarons/react-recycled-scrolling.svg?branch=master)](https://travis-ci.org/sarons/react-recycled-scrolling)
 [![Coverage Status](https://coveralls.io/repos/github/sarons/react-recycled-scrolling/badge.svg?branch=master)](https://coveralls.io/github/sarons/react-recycled-scrolling?branch=master)
 

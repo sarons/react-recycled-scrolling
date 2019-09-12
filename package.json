@@ -1,6 +1,6 @@
 {
   "name": "react-recycled-scrolling",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react-recycled-scrolling React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -39,6 +39,7 @@
   "license": "MIT",
   "repository": "https://github.com/sarons/react-recycled-scrolling",
   "keywords": [
-    "react-component"
+    "react", "react-hooks", "react-component", "scrolling", "recyclerview",
+    "listview", "performance", "virtualization","list"
   ]
 }

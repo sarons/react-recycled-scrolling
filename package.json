@@ -1,19 +1,14 @@
 {
   "name": "react-recycled-scrolling",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "react-recycled-scrolling React component",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "files": ["css","es","lib","umd"],
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run build -- --copy-files",
     "start": "nwb serve-react-demo",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -40,7 +35,7 @@
     "react-test-renderer": "^16.9.0"
   },
   "author": "https://github.com/sarons",
-  "homepage": "",
+  "homepage": "https://github.com/sarons/react-recycled-scrolling#react-recycled-scrolling",
   "license": "MIT",
   "repository": "https://github.com/sarons/react-recycled-scrolling",
   "keywords": [

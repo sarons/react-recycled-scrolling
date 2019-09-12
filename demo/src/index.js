@@ -1,7 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 
-import RecycledList from '../../src'
+import RecycledList from '../../src/index'
 import ImageRow from './ImageRow'
 import SheepRow from './SheepRow'
 
@@ -21,7 +21,7 @@ for (let i = 1; i <= 20000; i++) numberList.push(i)
 function Demo() {
   return (
     <div>
-      <div class="Split Left">
+      <div className="Split Left">
         <p>
           <b>Recycled Image List of {imageList.length} images</b>
         </p>
@@ -32,7 +32,7 @@ function Demo() {
         />
       </div>
 
-      <div class="Split Right">
+      <div className="Split Right">
         <p>
           <b>Recycled List of {numberList.length} Sheep</b>
         </p>

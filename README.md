@@ -16,8 +16,8 @@ npm install --save react-recycled-scrolling
 ## Usage
 
 All that is required is 
-* attrList: A list of items
-* itemFn: A React function component or even just a function that returns jsx for each element
+* **attrList**: A list of items
+* **itemFn**: A React function component or even just a function that returns jsx for each element
 
 ```javascript
 const numberList = []
@@ -35,9 +35,9 @@ attrList = {numberList}
 ```
 
 Additional parameters are
-* itemHeight: Height of each item, Default: 50
-* rowOffset: How many rows buffer you need outside the viewable screen, Default: 6
-* className: custom CSS for the outer scroll wrapper. You must have {position: relative} for recycled scroll to work
+* **itemHeight**: Height of each item, Default: 50
+* **rowOffset**: How many buffer rows you need outside the viewable screen, Default: 6
+* **className**: custom CSS for the outer scroll wrapper. You must have {position: relative} for recycled scroll to work
 
 ```javascript
 <RecycledList

@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/sarons/react-recycled-scrolling.svg?branch=master)](https://travis-ci.org/sarons/react-recycled-scrolling)
 [![Coverage Status](https://coveralls.io/repos/github/sarons/react-recycled-scrolling/badge.svg?branch=master)](https://coveralls.io/github/sarons/react-recycled-scrolling?branch=master)
 
-> Simulate normal scrolling by using only fixed number of DOM elements for large lists of items
+> Simulate normal scrolling by using only fixed number of DOM elements for large lists of items with React Hooks
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package

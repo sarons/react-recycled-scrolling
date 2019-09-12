@@ -73,9 +73,9 @@ describe('RecycledList', () => {
            extraRows = 10, windowHeight = 500
     const wrapper = renderWrapper(numberList, itemHeight, extraRows,
                                   windowHeight, itemCount)
-    const firstElement = wrapper.firstElementChild.innerHTML
+    const prevLastElement = parseInt(wrapper.lastElementChild.innerHTML)
     fireEvent.scroll(wrapper,{target: {scrollTop: parseInt(wrapper.style.height)}})
-    expect(wrapper.firstElementChild.innerHTML).not.toBe(firstElement)
+    expect(parseInt(wrapper.firstElementChild.innerHTML)).toBeGreaterThan(prevLastElement)
     expect(parseInt(wrapper.lastElementChild.innerHTML)).toBe(numberList[itemCount-1])
   })
 })

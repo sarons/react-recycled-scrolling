@@ -17,6 +17,7 @@
     "start": "nwb serve-react-demo",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "test:debugwatch": "node --inspect-brk node_modules/.bin/jest --runInBand --watch"
   },
@@ -29,20 +30,19 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "@testing-library/jest-dom": "^4.1.0",
-    "@testing-library/react": "^9.0.2",
+    "@testing-library/react": "^9.1.4",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "jest": "^24.9.0",
     "nwb": "0.23.x",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-test-renderer": "^16.9.0",
-    "react-testing-library": "^8.0.1"
+    "react-test-renderer": "^16.9.0"
   },
-  "author": "",
+  "author": "https://github.com/sarons",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/sarons/react-recycled-scrolling",
   "keywords": [
     "react-component"
   ]

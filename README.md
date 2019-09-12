@@ -1,4 +1,4 @@
-# react-recycled-scrolling
+# React Recycled Scrolling
 
 [![npm package][npm-badge]][npm]
 [![Build Status](https://travis-ci.org/sarons/react-recycled-scrolling.svg?branch=master)](https://travis-ci.org/sarons/react-recycled-scrolling)
@@ -45,11 +45,17 @@ Additional parameters are
 <RecycledList
   itemFn = {SheepRow}
   attrList = {numberList}
-  itemHeight={120}
+  itemHeight = {120}
   rowOffset = {10}
   className = {'CustomContainer'}
 />
 ```
+
+## Example
+
+[![Edit jovial-haibt-y8mlf](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/jovial-haibt-y8mlf?fontsize=14)
+
+https://codesandbox.io/s/jovial-haibt-y8mlf?fontsize=14
 
 ## License
 

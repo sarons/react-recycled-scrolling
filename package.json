@@ -1,6 +1,6 @@
 {
   "name": "react-recycled-scrolling",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react-recycled-scrolling React component",
   "main": "lib/index.js",
   "module": "es/index.js",

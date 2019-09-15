@@ -30,6 +30,8 @@ const SheepRow = (no) => (<div> {no} Sheep </div>)
 Then just drop in your RecycledList wherever you need it
 
 ```javascript
+import RecycledList from 'react-recycled-scrolling'
+
 <RecycledList
 itemFn = {SheepRow}
 attrList = {numberList}

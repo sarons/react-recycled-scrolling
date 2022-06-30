@@ -26,7 +26,7 @@
     "@babel/preset-react": "^7.0.0",
     "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^10.0.4",
-    "babel-jest": "^26.1.0",
+    "babel-jest": "^28.1.2",
     "babel-loader": "^8.0.6",
     "jest": "^24.9.0",
     "nwb": "0.25.x",

@@ -32,7 +32,7 @@
     "nwb": "0.25.x",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-test-renderer": "^16.9.0"
+    "react-test-renderer": "^19.0.0"
   },
   "author": "https://github.com/sarons",
   "homepage": "https://github.com/sarons/react-recycled-scrolling#react-recycled-scrolling",
